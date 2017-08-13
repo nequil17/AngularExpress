@@ -1,13 +1,11 @@
 <div ng-controller="SingleController">
-    <div class="border">
-            <p id="info"><b>Character</b> : {{single.Name}}
-            <br>
-            <b>Class</b> : {{single.Class}}</p>
-         
-
-          <div id="imageContainer">
-            <img ng-click="getName(post.id)"src="{{single.image}}" style="height:200px";"width:200px">  
-          </div>
-    </div>
-           <a href="/#/api"><button id="homeButton">Home</button></a>
-    </div>
+  <div class="border">
+    <p id="info"><b>Character</b> : {{single.Name}}
+    <br>
+    <b>Class</b> : {{single.Class}}</p>
+  <div id="imageContainer">
+    <img ng-click="getName(post.id)"src="{{single.image}}" style="height:200px";"width:200px">  
+  </div>
+  </div>
+  <a href="/#/api"><button id="homeButton">Home</button></a>
+</div>

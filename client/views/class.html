@@ -1,14 +1,13 @@
 <div ng-controller="ClassController"> 
     <div ng-repeat="post in role" class="border">
-            <div id="info">
-                <b>Character</b> : {{post.Name}}
-                <br>
-                <b>Class</b> : {{post.Class}}
-          </div>
-          <div id="imageContainer">
-            <img id="image" ng-click="getName(post.id)"src="{{post.image}}" style="height:200px";"width:200px">  
-          </div>
-            
+        <div id="info">
+            <b>Character</b> : {{post.Name}}
+            <br>
+            <b>Class</b> : {{post.Class}}
+        </div>
+    <div id="imageContainer">
+        <img id="image" ng-click="getName(post.id)"src="{{post.image}}" style="height:200px";"width:200px">  
+    </div>
     </div>
     <a href="/#/api"><button id="homeButton">Home</button></a>
 </div>
