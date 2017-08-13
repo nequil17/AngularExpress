@@ -49,12 +49,12 @@
 {
     "id": "9",
     "Name": "Darion",
-    "Class": "Death Knight",
+    "Class": "Death_Knight",
     "image": "https://i.ytimg.com/vi/FOTIXUrxQDc/maxresdefault.jpg"
 },
 {
     "id": "10",
     "Name": "Arthas",
-    "Class": "Death Knight",
+    "Class": "Death_Knight",
     "image": "https://bossypally.files.wordpress.com/2010/01/wrathpic.jpg"
 }]

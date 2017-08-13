@@ -1,26 +1,26 @@
-#imageContainer{
+#imageContainer {
     height:200px;
     width:200px;
     margin:auto;
     margin-bottom:1.5em;
     margin-top:1.5em;
 }
-#info{
+#info {
     text-align: center;
     font-size:24px;
     color:white;
 }
-.border{
-    border:5px solid green;
+.border {
+    border:2px solid lightblue;
     margin:2em;
     margin-left:25%;
     margin-right:25%;
-    background-color:purple;
+    background-color:lightgrey;
 }
-#homeButton{
-    height:75px;
+#homeButton {
+    height:200px;
     width:200px;
-    background-color:green;
+    background-color:lightblue;
     color:white;
     margin-left:50%;
 }

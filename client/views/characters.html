@@ -1,14 +1,13 @@
 <div ng-controller="CharacterController">
-    <div ng-repeat="post in name" class="border">
-          <div id="info">
-            <b>Character</b> : {{post.Name}}
-            <br>
-            <button ng-click="getRole(post.Class)"><b>Class</b> : {{post.Class}}</button>
-          </div>
+  <div ng-repeat="post in name" class="border">
+    <div id="info">
+      <b>Character</b> : {{post.Name}}
+      <br>
+      <button ng-click="getRole(post.Class)"><b>Class</b> : {{post.Class}}</button>
+    </div>
 
-          <div id="imageContainer">
-            <img ng-click="getName(post.id)"src="{{post.image}}" style="height:100%";"width:100%">  
-          </div>
-          
+      <div id="imageContainer">
+        <img ng-click="getName(post.id)"src="{{post.image}}" style="height:100%";"width:100%">  
+      </div>    
     </div>
 </div>
