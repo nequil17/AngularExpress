@@ -16,7 +16,6 @@ app.route('/api')
         return res.sendFile(JSONPath);
     })
 
-    
 app.route('/api/role/:Class')
 .get(function(req, res) {
     fs.readFile(JSONPath, 'utf-8', function(err, fileContents) {
