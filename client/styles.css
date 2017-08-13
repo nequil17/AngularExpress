@@ -1,0 +1,26 @@
+#imageContainer{
+    height:200px;
+    width:200px;
+    margin:auto;
+    margin-bottom:1.5em;
+    margin-top:1.5em;
+}
+#info{
+    text-align: center;
+    font-size:24px;
+    color:white;
+}
+.border{
+    border:5px solid green;
+    margin:2em;
+    margin-left:25%;
+    margin-right:25%;
+    background-color:purple;
+}
+#homeButton{
+    height:75px;
+    width:200px;
+    background-color:green;
+    color:white;
+    margin-left:50%;
+}
