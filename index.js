@@ -13,7 +13,7 @@ app.route('/api')
         fs.readFile(JSONPath, "utf-8", function(err, file){
             return res.send(JSON.parse(file));
         });
-        return res.sendFile(JSONPath);
+//         return res.sendFile(JSONPath);
     })
 
 app.route('/api/role/:Class')
