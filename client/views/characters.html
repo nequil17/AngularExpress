@@ -4,7 +4,10 @@
       <b>Character</b> : {{post.Name}}
       <br>
       <b>Class<b> : {{post.Class}}
+      <br>
+      <button ng-click="getClass(post.Class)"><b>Class</b> : {{post.Class}}</button>
     </div>
+
       <div id="imageContainer">
         <img ng-click="getName(post.id)"src="{{post.image}}" style="height:100%";"width:100%">  
       </div>    
